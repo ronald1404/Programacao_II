@@ -1,4 +1,4 @@
-package Aula2;
+package Aula_02;
 
 public class Carro{
     private int velocidade;
