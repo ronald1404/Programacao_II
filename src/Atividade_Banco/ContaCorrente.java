@@ -9,10 +9,10 @@ public class ContaCorrente extends Conta{
     
     @Override
     public double saque(double valor){
-        if ((valor - (getSaldo()+cheque_especial)) > cheque_especial+getSaldo()){
+        if ((valor > cheque_especial+getSaldo())){
             System.out.println("Erro, Saldo insuficiente");
+            return getSaldo();
         }
-        // saldo -=valor;
         setSaldo(valor*-1);
         return getSaldo();
     }

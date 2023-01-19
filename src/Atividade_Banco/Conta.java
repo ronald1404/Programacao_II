@@ -3,7 +3,7 @@ package Atividade_Banco;
 public class Conta {
 
     Correntista correntista;
-    private double saldo;
+    private double saldo = 0;
 
     public Conta(Correntista correntista){
         this.correntista = correntista;

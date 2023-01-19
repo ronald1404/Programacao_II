@@ -19,7 +19,7 @@ public class Main {
         System.out.println(cCorrente.getSaldo());
 
         // System.out.println(cCorrente.saldo);
-        
+
         System.out.println("Saldo da conta poupança");
         System.out.println(cPoupanca.getSaldo());
 
@@ -31,8 +31,7 @@ public class Main {
         cCorrente.saque(200);
         System.out.println(cCorrente.getSaldo());
 
-        System.out.println("Sacando 200 Reais");
-        cCorrente.saque(200);
+        cCorrente.deposito(199);
         System.out.println(cCorrente.getSaldo());
     }
 }
