@@ -7,11 +7,9 @@ public class Main {
 
         Scanner in = new Scanner(System.in);
 
-        int aux;
-
         System.out.println("Digite 1 para Normal, 2 para VIP");
 
-        aux = in.nextInt();
+        int aux = in.nextInt();
 
         Ingresso ingresso = null;
         
