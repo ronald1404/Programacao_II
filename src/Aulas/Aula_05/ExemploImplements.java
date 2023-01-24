@@ -1,11 +1,11 @@
-
+package Aulas.Aula_05;
 
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
 
-public class Main implements List{
+public class ExemploImplements implements List{
     
     /* 
     * Definição de Abstração: Uma ferramenta capaz
@@ -139,5 +139,4 @@ public class Main implements List{
         return null;
     }
         
-    }
 }
