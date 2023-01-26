@@ -1,0 +1,11 @@
+QUAL A DIFERENÇA ENTRE HERANÇA E POLIMORFISMO?
+R: Herança Signfica que uma classe tem a capacidade herdar (abstrair) atributos e métodos
+de uma outra classe que não seja declarada como final.
+Polimorfirmo Signfica a capacidade de um objeto ser iniciado de formas diferentes.
+Ex. Herança:
+    Em java uma classe extendendo outra (extends) seria uma exemplo de Herança.
+    Pois a classe herdeira teria os mesmos métodos e atributos que sua classe pai.
+Ex. Polimorfirmo:
+    Se um objeto do tipo carro existe, e tem a possibilidade de se tornar
+    um Fusca, BMW ou Ferrari. Esse seria um exemplo de Polimorfirmo.
+    
