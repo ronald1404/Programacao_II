@@ -23,7 +23,7 @@ public class BMW extends ModeloCarro implements InterfaceCarro{
     public double calcularVelocidade(int m, int s) {
         double v = m/s;
         System.out.printf("Velocidade média em %d/%d",m,s);
-        System.out.printf("\n%.0fm/s",v);
+        System.out.printf("\n%.0fm/s\n",v);
         return v;
     }
     
